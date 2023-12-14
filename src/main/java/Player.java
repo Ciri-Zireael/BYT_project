@@ -8,6 +8,7 @@ public class Player implements PokeballListener{ //Sarah (i got suggestions tho)
 
     private ArrayList<Pokemon> pokemons = new ArrayList<>();
     private ArrayList<Player> friends = new ArrayList<>();
+    private ArrayList<TradeOffer> tradeOffers;
 
     public Player(String username, PokeballDistributor distributor) {
         this.username = username;
