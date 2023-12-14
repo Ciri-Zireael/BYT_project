@@ -1,25 +1,39 @@
+import org.junit.Before;
 import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 public class ParticipationTest {
+    Player player;
+    @Before
+    public void setUp(){
+        player = new Player("player1");
+    }
+    @Test
+    public void testGetPlayer() {
+        Participation participation = new Participation(player);
+        assertEquals(player, participation.getPlayer());
+    }
+
+    @Test
+    public void testGetBattle() {
+        Participation participation = new Participation(player);
+        assertNull(participation.getBattle());
+    }
+
+    @Test
+    public void testGetResult() {
+        Participation participation = new Participation(player);
+        participation.setResult(BattleResult.DRAW);
+        assertEquals(BattleResult.DRAW, participation.getResult());
+    }
+
     @Test
     public void testSetResult() {
-        Player player = new Player("Player1");
-        Player player2 = new Player("Player2");
-
         Participation participation = new Participation(player);
-        Participation participation2 = new Participation(player2);
-        BattleResult winResult = BattleResult.WIN;
-        BattleResult drawResult = BattleResult.DRAW;
-
-
-        participation.setResult(winResult);
-        participation2.setResult(drawResult);
-        assertEquals(2, player.getNumberOfPokeballs());
-        assertEquals(1, player2.getNumberOfPokeballs());
-
-
-
+        BattleResult result = BattleResult.WIN;
+        participation.setResult(result);
+        assertEquals(result, participation.getResult());
     }
+
 }

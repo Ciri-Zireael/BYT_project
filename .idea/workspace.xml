@@ -5,31 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8ae3e5-1b1a-4dff-b5c5-09d12ff9f842" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/NegativeValueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/PlayerNullException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MatchMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Participation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Participation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerWeekRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerWeekRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PokeballDistributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PokeballDistributor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PokeballEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PokeballListener.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PokemonRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PokemonType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PokemonType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpecialAbility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpecialAbility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TradeOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TradeOffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WeeklyRanking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeeklyRanking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BattleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MatchMakerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ParticipationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParticipationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerWeekRankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerWeekRankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokemonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PokemonTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokemonTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpecialAbilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpecialAbilityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TeamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TeamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TradeOfferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TradeOfferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WeeklyRankingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeeklyRankingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,64 +73,59 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PlayerTest.PlayerTeamCheck">
-    <configuration name="ParticipationTest.testSetResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BYT_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ParticipationTest" />
-      <option name="METHOD_NAME" value="testSetResult" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest.PlayerConstructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BYT_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="METHOD_NAME" value="PlayerConstructorTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest.PlayerTeamCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BYT_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="METHOD_NAME" value="PlayerTeamCheck" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokemonTest.testAssignPokemonToPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PokemonTypeTest">
+    <configuration name="PokemonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BYT_project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokemonTest" />
-      <option name="METHOD_NAME" value="testAssignPokemonToPlayer" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokemonTest.testRandomRarity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokemonTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BYT_project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PokemonTest" />
-      <option name="METHOD_NAME" value="testRandomRarity" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="PokemonTypeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialAbilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BYT_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpecialAbilityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BYT_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TeamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TradeOfferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BYT_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TradeOfferTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlayerTest.PlayerTeamCheck" />
-        <item itemvalue="JUnit.PlayerTest.PlayerConstructorTest" />
-        <item itemvalue="JUnit.PokemonTest.testRandomRarity" />
-        <item itemvalue="JUnit.PokemonTest.testAssignPokemonToPlayer" />
-        <item itemvalue="JUnit.ParticipationTest.testSetResult" />
+        <item itemvalue="JUnit.PokemonTypeTest" />
+        <item itemvalue="JUnit.PokemonTest" />
+        <item itemvalue="JUnit.TeamTest" />
+        <item itemvalue="JUnit.SpecialAbilityTest" />
+        <item itemvalue="JUnit.TradeOfferTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +140,8 @@
       <workItem from="1702230517678" duration="5143000" />
       <workItem from="1702443096818" duration="2653000" />
       <workItem from="1702481981025" duration="21570000" />
+      <workItem from="1702585059177" duration="598000" />
+      <workItem from="1702585689082" duration="4065000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1702231709964</created>
@@ -171,7 +157,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1702564542226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="init commit">
+      <created>1702574824133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1702574824133</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

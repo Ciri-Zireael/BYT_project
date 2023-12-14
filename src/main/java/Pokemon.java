@@ -1,8 +1,4 @@
 import exceptions.PlayerNullException;
-
-import java.util.List;
-import java.util.Random;
-
 public class Pokemon {
     private final String name;
     private final PokemonRarity rarity;

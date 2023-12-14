@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class  Team {
     private final Player player;
     private final Pokemon[] pokemons;

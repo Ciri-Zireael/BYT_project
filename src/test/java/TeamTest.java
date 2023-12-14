@@ -1,21 +1,25 @@
+import org.junit.Before;
 import org.junit.Test;
 
-import java.util.List;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class TeamTest {
+    Player player;
+    Team team;
+    @Before
+    public void setUp(){
+        player = new Player("player1");
+        team = new Team(player);
+    }
     @Test
-    public void testAssembleTeam() { //testing with keyboard input?
-        Player player = new Player("player1");
-        List<Pokemon> Pokemons = List.of(
-                new Pokemon("Pikachu", PokemonRarity.COMMON,
-                        50, 10, null),
-                new Pokemon("Charizard", PokemonRarity.RARE,
-                        80, 20, null),
-                new Pokemon("Mewtwo", PokemonRarity.LEGENDARY,
-                        100, 30, null),
-                new Pokemon("Piplup", PokemonRarity.LEGENDARY,
-                        35, 25, null)
-        );
-        Pokemons.forEach(s -> player.getPokemons().add(s));
+    public void testGetPlayer() {
+        assertEquals(player, team.getPlayer());
+    }
+
+    @Test
+    public void testGetPokemons() {
+        assertNotNull(team.getPokemons());
+        assertEquals(4, team.getPokemons().length);
     }
 }
