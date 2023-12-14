@@ -1,25 +1,34 @@
-import java.time.LocalDate;
-import java.util.Date;
+import exceptions.PlayerNullException;
 
-public class Battle { //Sarah
-    private LocalDate date;
-    private Player player1;
-    private Player player2;
-    public Battle(Player player1, Player player2) {
-        this.date = LocalDate.now();
-        this.player1 = player1;
-        this.player2 = player2;
+import java.time.LocalDate;
+
+public class Battle {
+    private final LocalDate date;
+    private Participation player1;
+    private Participation player2;
+
+    public Battle(){
+       this.date = LocalDate.now();
     }
     public LocalDate getDate() {
         return date;
     }
-    public Player getPlayer1() {
+    public Participation getPlayer1() {
         return player1;
     }
-
-    public Player getPlayer2() {
+    public Participation getPlayer2() {
         return player2;
     }
 
+    public void setPlayer1(Participation player1) {
+        if(this.player1 == null)
+          this.player1 = player1;
+    }
 
+    public void setPlayer2(Participation player2) {
+        if(this.player2 == null)
+           this.player2 = player2;
+    }
+
+//no need for setters, since instances of battle class cannot be modified
 }

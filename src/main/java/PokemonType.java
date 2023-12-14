@@ -1,7 +1,7 @@
 public class PokemonType {
 
-    private String name;
-    private PokemonType weak_against, strong_against;
+    private final String name;
+    private final PokemonType weak_against, strong_against;
 
     public PokemonType(String name, PokemonType weak_against, PokemonType strong_against) {
         this.name = name;

@@ -1,7 +1,7 @@
 public class SpecialAbility {
 
-    private String name;
-    private String description;
+    private final String name;
+    private final String description;
 
     public SpecialAbility(String name, String description) {
         this.name = name;

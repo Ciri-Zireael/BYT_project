@@ -1,21 +1,25 @@
+import exceptions.NegativeValueException;
+
 import java.util.ArrayList;
 
-public class Player implements PokeballListener{ //Sarah (i got suggestions tho)
+public class Player{
     private String username;
     private int XP;
     private int level;
-    private int numberOfPokeballs; //TODO: use it when assigining pokemon?
+    private int numberOfPokeballs;
+    private final Team team;
+    private final ArrayList<Pokemon> pokemons = new ArrayList<>();
+    private final ArrayList<Player> friends = new ArrayList<>();
+    private final ArrayList<TradeOffer> tradeOffers = new ArrayList<>();
+    private final ArrayList<Participation> participations = new ArrayList<>();
+    private final ArrayList<PlayerWeekRank> ranks = new ArrayList<>();
 
-    private ArrayList<Pokemon> pokemons = new ArrayList<>();
-    private ArrayList<Player> friends = new ArrayList<>();
-    private ArrayList<TradeOffer> tradeOffers;
-
-    public Player(String username, PokeballDistributor distributor) {
+    public Player(String username) {
         this.username = username;
         this.XP = 0;
         this.level = 1;
         this.numberOfPokeballs = 0;
-        distributor.addPokeballListener(this);
+        this.team = new Team(this);
     }
     public String getUsername() {
         return this.username;
@@ -24,12 +28,13 @@ public class Player implements PokeballListener{ //Sarah (i got suggestions tho)
     public void setUsername(String username) {
         this.username = username;
     }
-
     public int getXP() {
         return this.XP;
     }
 
-    public void setXP(int XP) {
+    public void setXP(int XP) throws NegativeValueException {
+        if(XP < 0)
+            throw new NegativeValueException();
         this.XP = XP;
     }
 
@@ -37,7 +42,9 @@ public class Player implements PokeballListener{ //Sarah (i got suggestions tho)
         return this.level;
     }
 
-    public void setLevel(int level) {
+    public void setLevel(int level) throws NegativeValueException {
+        if(level < 0)
+            throw new NegativeValueException();
         this.level = level;
     }
     public ArrayList<Pokemon> getPokemons() {
@@ -48,30 +55,34 @@ public class Player implements PokeballListener{ //Sarah (i got suggestions tho)
         return this.numberOfPokeballs;
     }
 
-    public void setNumberOfPokeballs(int numberOfPokeballs) {
+    public void setNumberOfPokeballs(int numberOfPokeballs) throws NegativeValueException {
+        if(numberOfPokeballs < 0)
+            throw new NegativeValueException();
         this.numberOfPokeballs = numberOfPokeballs;
     }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public ArrayList<Player> getFriends() {
+        return friends;
+    }
+
+    public ArrayList<TradeOffer> getTradeOffers() {
+        return tradeOffers;
+    }
+
+    public ArrayList<Participation> getParticipations() {
+        return participations;
+    }
+
     void ViewLeaderboard(){}
-    void ViewFriendsList(){
-        this.friends.forEach(s -> System.out.println(s.getUsername()));
-    }
-    void AddFriend(Player player){
-        this.friends.add(player);
-    }
-    void DeleteFriend(Player player){
-        this.friends.remove(player);
-    }
+    void ViewFriendsList(){}
+    void AddFriend(Player player){}
+    void DeleteFriend(Player player){}
     void MakeTradeOffer(){}
     void Login(){}
-    void Register(PokeballDistributor distributor){
-        //TODO:logic for registering
-        distributor.assignPokeballsToPlayer(4);
-    }
-    void ParticipateInBattle(MatchMaker mananger){
-        mananger.enterQueue(this);
-    }
-    @Override
-    public void onAssigned(PokeballEvent event) {
-        this.numberOfPokeballs += event.getNumberOfPokeballs();
-    }
+    void Register(){}
+
 }

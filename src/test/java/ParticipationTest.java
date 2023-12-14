@@ -5,13 +5,11 @@ import static org.junit.Assert.assertEquals;
 public class ParticipationTest {
     @Test
     public void testSetResult() {
-        PokeballDistributor distributor = new PokeballDistributor();
-        Player player = new Player("Player1", distributor);
-        Player player2 = new Player("Player2", distributor);
-        Battle battle = new Battle(player,player2);
+        Player player = new Player("Player1");
+        Player player2 = new Player("Player2");
 
-        Participation participation = new Participation(player, battle);
-        Participation participation2 = new Participation(player2, battle);
+        Participation participation = new Participation(player);
+        Participation participation2 = new Participation(player2);
         BattleResult winResult = BattleResult.WIN;
         BattleResult drawResult = BattleResult.DRAW;
 

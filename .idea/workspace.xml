@@ -5,28 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8ae3e5-1b1a-4dff-b5c5-09d12ff9f842" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MatchMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PokeballEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PokeballListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PokemonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MatchMakerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/NegativeValueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/PlayerNullException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MatchMaker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Participation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Participation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PlayerWeekRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerWeekRank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PokeballDistributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PokeballDistributor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PokeballEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PokeballListener.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PokemonRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PokemonType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PokemonType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SpecialAbility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpecialAbility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TradeOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TradeOffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WeeklyRanking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeeklyRanking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BattleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MatchMakerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ParticipationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParticipationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PokeballDistributorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokeballDistributorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TeamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TeamTest.java" afterDir="false" />
     </list>
@@ -44,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="implementation" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -78,31 +84,32 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PokemonTest.testAssignPokemonToPlayer">
-    <configuration name="MatchMakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BYT_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MatchMakerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatchMakerTest.testHandleMatching" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BYT_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MatchMakerTest" />
-      <option name="METHOD_NAME" value="testHandleMatching" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PlayerTest.PlayerTeamCheck">
     <configuration name="ParticipationTest.testSetResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BYT_project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParticipationTest" />
       <option name="METHOD_NAME" value="testSetResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.PlayerConstructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BYT_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="PlayerConstructorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.PlayerTeamCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BYT_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="PlayerTeamCheck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PokemonTest.testAssignPokemonToPlayer" />
+        <item itemvalue="JUnit.PlayerTest.PlayerTeamCheck" />
+        <item itemvalue="JUnit.PlayerTest.PlayerConstructorTest" />
         <item itemvalue="JUnit.PokemonTest.testRandomRarity" />
+        <item itemvalue="JUnit.PokemonTest.testAssignPokemonToPlayer" />
         <item itemvalue="JUnit.ParticipationTest.testSetResult" />
-        <item itemvalue="JUnit.MatchMakerTest.testHandleMatching" />
-        <item itemvalue="JUnit.MatchMakerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702231709964</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="init commit">
+      <created>1702564542226</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1702564542226</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,20 +197,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/MatchMakerTest.java</url>
-          <line>27</line>
-          <properties class="MatchMakerTest" method="testHandleMatching">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

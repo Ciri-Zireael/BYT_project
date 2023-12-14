@@ -5,8 +5,7 @@ import java.util.List;
 public class TeamTest {
     @Test
     public void testAssembleTeam() { //testing with keyboard input?
-        PokeballDistributor distributor = new PokeballDistributor();
-        Player player = new Player("player1", distributor);
+        Player player = new Player("player1");
         List<Pokemon> Pokemons = List.of(
                 new Pokemon("Pikachu", PokemonRarity.COMMON,
                         50, 10, null),
