@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a8ae3e5-1b1a-4dff-b5c5-09d12ff9f842" name="Changes" comment="init commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WeeklyRanking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeeklyRanking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BattleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ParticipationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParticipationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerWeekRankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerWeekRankTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokemonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PokemonTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokemonTypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpecialAbilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpecialAbilityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TeamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TeamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TradeOfferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TradeOfferTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WeeklyRankingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeeklyRankingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,16 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PokemonTypeTest">
-    <configuration name="PokemonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BYT_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PokemonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WeeklyRankingTest">
     <configuration name="PokemonTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BYT_project" />
       <option name="PACKAGE_NAME" value="" />
@@ -119,13 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeeklyRankingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BYT_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeeklyRankingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PokemonTypeTest" />
-        <item itemvalue="JUnit.PokemonTest" />
+        <item itemvalue="JUnit.WeeklyRankingTest" />
+        <item itemvalue="JUnit.TradeOfferTest" />
         <item itemvalue="JUnit.TeamTest" />
         <item itemvalue="JUnit.SpecialAbilityTest" />
-        <item itemvalue="JUnit.TradeOfferTest" />
+        <item itemvalue="JUnit.PokemonTypeTest" />
       </list>
     </recent_temporary>
   </component>
